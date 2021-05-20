@@ -1,0 +1,6 @@
+n=int(input())
+l = list(map(int, input().split(' ')[:n]))
+m=max(l)
+l=l.remove(m)
+a=max(l)
+print(l)
